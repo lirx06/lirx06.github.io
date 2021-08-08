@@ -118,7 +118,11 @@
 <p>而加密者使用时，加密者查找明文字母表中需要加密的消息中的每一个字母所在位置，并且写下密文字母表中对应的字母。需要解密的人则根据事先已知的密钥反过来操作，得到原来的明文。例如：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span><br><span class="line">密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ</span><br></pre></td></tr></table></figure>
 
-<p>凯撒密码的加密、解密方法还能够通过同余的数学方法进行计算。首先将字母用数字代替，A=0，B=1，…，Z=25。此时偏移量为n的加密方法即为:<br>$$<br>En(x)=(x+n)\ mod\ 26<br>$$<br>解密就是：<br>$$<br>Dn(x)=(x-n)\ mod\ 26<br>$$<br>特定凯撒密码名称</p>
+<p>凯撒密码的加密、解密方法还能够通过同余的数学方法进行计算。首先将字母用数字代替，A=0，B=1，…，Z=25。此时偏移量为n的加密方法即为:</p>
+<p>​                                                                $En(x)=(x+n)\ mod\ 26$</p>
+<p>解密就是：</p>
+<p>​                                                                $Dn(x)=(x-n)\ mod\ 26$</p>
+<p>特定凯撒密码名称</p>
 <p>根据偏移量的不同，还存在若干特定的凯撒密码名称：</p>
 <ul>
 <li>偏移量为10：Avocat(A→K)</li>
