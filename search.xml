@@ -101,7 +101,9 @@
   <entry>
     <title>【古典密码】凯撒加密</title>
     <url>/2021/08/08/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h1><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h1><blockquote>
 <p>如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推。</p>
 <p>​                                                                                                            ——苏维托尼乌斯，罗马十二帝王传</p>
 </blockquote>
