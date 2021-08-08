@@ -9,8 +9,39 @@
     <atom:link href="http://lostkey.top/atom.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 07 Aug 2021 09:15:19 GMT</pubDate>
+    <pubDate>Sun, 08 Aug 2021 10:19:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>【古典密码】凯撒加密</title>
+      <link>http://lostkey.top/2021/08/08/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/</link>
+      <guid>http://lostkey.top/2021/08/08/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/</guid>
+      <pubDate>Sun, 08 Aug 2021 08:53:19 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;概况&quot;&gt;&lt;a href=&quot;#概况&quot; class=&quot;headerlink&quot; title=&quot;概况&quot;&gt;&lt;/a&gt;概况&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推。&lt;/p&gt;
+&lt;p&gt;​                                                                                                            ——苏维托尼乌斯，罗马十二帝王传&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;凯撒密码&lt;/strong&gt;最早由古罗马军事统帅盖乌斯·尤利乌斯·凯撒在军队中用来传递加密信息，故称凯撒密码。此为一种位移加密手段，只对26个（大小写）字母进行位移加密，规则相当简单，容易被破解。&lt;/p&gt;
+&lt;p&gt;凯撒密码属于替代加密，即用另一个字符来替换明文中的原字符，其中的对应关系只有加密者所知。而凯撒密码就是最简单的一种替代加密手段。&lt;/p&gt;
+&lt;p&gt;到了现代，凯撒密码虽然早已经无法保证人们的信息安全，但还是会包含于一些复杂的加密方法中，通常被作为其他更复杂的加密方法中的一个步骤，例如维吉尼亚密码。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h1><blockquote><p>如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推。</p><p>​                                                                                                            ——苏维托尼乌斯，罗马十二帝王传</p></blockquote><p><strong>凯撒密码</strong>最早由古罗马军事统帅盖乌斯·尤利乌斯·凯撒在军队中用来传递加密信息，故称凯撒密码。此为一种位移加密手段，只对26个（大小写）字母进行位移加密，规则相当简单，容易被破解。</p><p>凯撒密码属于替代加密，即用另一个字符来替换明文中的原字符，其中的对应关系只有加密者所知。而凯撒密码就是最简单的一种替代加密手段。</p><p>到了现代，凯撒密码虽然早已经无法保证人们的信息安全，但还是会包含于一些复杂的加密方法中，通常被作为其他更复杂的加密方法中的一个步骤，例如维吉尼亚密码。</p><span id="more"></span><h1 id="加密原理"><a href="#加密原理" class="headerlink" title="加密原理"></a>加密原理</h1><p><strong>凯撒密码的替换方法是通过排列明文和密文字母表，密文字母表示通过将明文字母表向左或向右移动一个固定数目的位置。</strong>例如，当偏移量是左移3的时候（解密时的密钥就是3）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文字母表：ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><br><span class="line">密文字母表：DEFGHIJKLMNOPQRSTUVWXYZABC</span><br></pre></td></tr></table></figure><p>举个例子当偏移量为左移3时，D本来是第4个字母，在字母表中向左移3位，即从第4位变成第1位。也就是在密文字母表中排名第一位。</p><p><img src="https://z3.ax1x.com/2021/08/08/flGtOI.png"></p><p>而加密者使用时，加密者查找明文字母表中需要加密的消息中的每一个字母所在位置，并且写下密文字母表中对应的字母。需要解密的人则根据事先已知的密钥反过来操作，得到原来的明文。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span><br><span class="line">密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ</span><br></pre></td></tr></table></figure><p>凯撒密码的加密、解密方法还能够通过同余的数学方法进行计算。首先将字母用数字代替，A=0，B=1，…，Z=25。此时偏移量为n的加密方法即为:<br>$$<br>En(x)=(x+n)\ mod\ 26<br>$$<br>解密就是：<br>$$<br>Dn(x)=(x-n)\ mod\ 26<br>$$<br>特定凯撒密码名称</p><p>根据偏移量的不同，还存在若干特定的凯撒密码名称：</p><ul><li>偏移量为10：Avocat(A→K)</li><li>偏移量为13：ROT13</li><li>偏移量为-5：Cassis (K 6)</li><li>偏移量为-6：Cassette (K 7)</li></ul><h1 id="破解方式"><a href="#破解方式" class="headerlink" title="破解方式"></a>破解方式</h1><h3 id="暴力破解"><a href="#暴力破解" class="headerlink" title="暴力破解"></a>暴力破解</h3><p>凯撒密码的原理导致，总共也就只有26种可能，在这种情况下，我们完全可以把偏移量全部试一遍。事实上现在网络上的解法都是如此。</p><p>举个例子：</p><p>密文: N FR MJWJXD</p><pre><code>&lt;table style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;    &lt;tr&gt;        &lt;td&gt;            &lt;p&gt;Key #1: M EQ LIVIWC&lt;/p&gt;            &lt;p&gt;Key #2: L DP KHUHVB&lt;/p&gt;            &lt;p&gt;Key #3: K CO JGTGUA&lt;/p&gt;            &lt;p&gt;Key #4: J BN IFSFTZ&lt;/p&gt;            &lt;p&gt;Key #5: I AM HERESY&lt;/p&gt;            &lt;p&gt;Key #6: H ZL GDQDRX&lt;/p&gt;            &lt;p&gt;Key #7: G YK FCPCQW&lt;/p&gt;            &lt;p&gt;Key #8: F XJ EBOBPV&lt;/p&gt;            &lt;p&gt;Key #9: E WI DANAOU&lt;/p&gt;            &lt;p&gt;Key #10: D VH CZMZNT&lt;/p&gt;            &lt;p&gt;Key #11: C UG BYLYMS&lt;/p&gt;            &lt;p&gt;Key #12: B TF AXKXLR&lt;/p&gt;            &lt;p&gt;Key #13: A SE ZWJWKQ&lt;/p&gt;        &lt;/td&gt;        &lt;td&gt;            &lt;p&gt;Key #14: Z RD YVIVJP&lt;/p&gt;            &lt;p&gt;Key #15: Y QC XUHUIO&lt;/p&gt;            &lt;p&gt;Key #16: X PB WTGTHN&lt;/p&gt;            &lt;p&gt;Key #17: W OA VSFSGM&lt;/p&gt;            &lt;p&gt;Key #18: V NZ URERFL&lt;/p&gt;            &lt;p&gt;Key #19: U MY TQDQEK&lt;/p&gt;            &lt;p&gt;Key #20: T LX SPCPDJ&lt;/p&gt;            &lt;p&gt;Key #21: S KW ROBOCI&lt;/p&gt;            &lt;p&gt;Key #22: R JV QNANBH&lt;/p&gt;            &lt;p&gt;Key #23: Q IU PMZMAG&lt;/p&gt;            &lt;p&gt;Key #24: P HT OLYLZF&lt;/p&gt;            &lt;p&gt;Key #25: O GS NKXKYE&lt;/p&gt;            &lt;p&gt;Key #26: N FR MJWJXD&lt;/p&gt;        &lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;</code></pre><p>显然，可以看出第四个即为明文。</p><h3 id="频率分析"><a href="#频率分析" class="headerlink" title="频率分析"></a>频率分析</h3><p>单纯的凯撒加密作为一种替代加密方式，并且，在这个加密过程中<strong>他原本的明文所代表的含义是没变的</strong>。</p><p>当密文长度足够大的情况下，可以先分析密文中每个字母出现的频率，然后将这一频率与正常情况下的该语言字母表中所有字母的出现频率做比较。例如在英语中，正常明文中字母E和T出现的频率特别高，而字母Q和Z出现的频率特别低，而在法语中出现频率最高的字母是E，最低的是K和W。可以通过这一特点，分析密文字母出现的频率，可以估计出正确的偏移量。此外，有时还可以将频率分析从字母推广到单词，例如英语中，出现频率最高的单词是：the, of, and, a, to, in…。我们可以通过将最常见的单词的所有可能的25组密文，编组成字典，进行分析。比如QEB可能是the，MPQY可能是单词know（当然也可能是aden）。<strong>但是频率分析也有其局限性，它对于较短或故意省略元音字母或者其他缩写方式写成的明文加密出来的密文进行解密并不适用。</strong></p><p>举个例子：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span><br><span class="line">密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ</span><br></pre></td></tr></table></figure><p>这段密文中，频率出现最高的是字母R和字母H。我们推断这两个应该是元音字母。并且我们可以注意到，WKH出现过两次，很有可能代表的是单词the。而且字母H也是高频率字母，所以我们可以猜测字母H代表的是字母E。</p><p>E是第5个字母，而H是第8个字母，所以显然，偏移量为3，这样便可以轻松解出明文了。</p>]]></content:encoded>
+      
+      
+      <category domain="http://lostkey.top/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/">密码学</category>
+      
+      <category domain="http://lostkey.top/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/">古典密码</category>
+      
+      
+      <category domain="http://lostkey.top/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/">密码学</category>
+      
+      
+      <comments>http://lostkey.top/2021/08/08/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Answers From Deep Web</title>
