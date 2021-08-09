@@ -690,10 +690,23 @@ NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
   <script async src="/js/boom.js"></script>
   <script type="text/javascript" src="/js/sakura.js"></script>
 
+  <!-- require APlayer -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
   <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
   <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-  <meting-js server="tencent" type="playlist" id="1380403895" fixed="true" autoplay="true" loop="all"order="random" preload="auto" list-folded="ture" list-max-height="500px" lrc-type="0"></meting-js>
-
+  <meting-js 
+	server="tencent" 
+	type="playlist" 
+	id="1380403895"
+	fixed="true" 
+	autoplay="true"
+	loop="all"
+	order="random"
+	preload="auto"
+	list-folded="ture"
+	list-max-height="500px"
+	lrc-type="1">
+  </meting-js>
 </body>
 </html>
