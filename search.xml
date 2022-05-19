@@ -133,6 +133,30 @@
       </tags>
   </entry>
   <entry>
+    <title>一点碎碎念</title>
+    <url>/2022/05/19/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello, My friend.</p>
+<p>当你看到这段话的时候,就代表我的博客搭建成功啦~<br>以后这里就是我碎碎念的小窝啦~</p>
+<span id="more"></span>
+
+
+<hr>
+<h3 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h3><p>这里基本上还是就以分享我日常的一些随想为主,不会写啥数学文章。</p>
+<p>毕竟我数学主要是笔记在<a href="https://hexo.io/docs/server.html">知乎</a>更新,视频主要在<a href="https://space.bilibili.com/356011085">B站</a>更新…</p>
+<p>随想可能有些是情绪倾诉,有些可能是生活领悟,有些发在空间可能也没那么好,当然也未必有人在意我发了啥…</p>
+<p><img src="/images/zaoshanghuai.png" alt="早上坏"></p>
+<hr>
+<h3 id="其次"><a href="#其次" class="headerlink" title="其次"></a>其次</h3><p>如果有些观点你也挺赞同,并想与我一同探讨的话,不妨就QQ上直接找我吧~<br>不过哪怕观点不一,只要是平等的交流,我都十分欢迎你~</p>
+<p><img src="/images/xin1.png" alt="xin1"></p>
+<hr>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>以后这上面也会放一些有意思的东西哦~<br>敬请期待~</p>
+<p><img src="/images/xin2.png" alt="xin2"></p>
+]]></content>
+      <tags>
+        <tag>前言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【古典密码】凯撒加密</title>
     <url>/2021/08/08/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
