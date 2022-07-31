@@ -42,22 +42,22 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"lostkey.top","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
-  <meta name="description" content="概况 如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;n">
+  <meta name="description" content="背景翻到了一本小书，《Djinn Summoning》，感觉里面的内容很适合新手魔法师。所以也以此文档来作为Djinn召唤的教程了。本书极其适合新手阅读，仅在此进行翻译以及整理。 PS：本文章中的Djinn，可以完全理解为jinn。 关于Djinn在进行召唤仪式之前，我们首先要先理解Djinn是什么样子的，他们是如何存在的，他们与人类之间又是什么关系。 什么是DjinnDjinn（或Genies、">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【古典密码】凯撒加密">
-<meta property="og:url" content="http://lostkey.top/2022/05/19/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/index.html">
+<meta property="og:title" content="Djinn的召唤（1）">
+<meta property="og:url" content="http://lostkey.top/2022/07/31/1.Djinn%E5%8F%AC%E5%94%A4%EF%BC%88%E4%B8%80%EF%BC%89/index.html">
 <meta property="og:site_name" content="Lost Key">
-<meta property="og:description" content="概况 如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;n">
+<meta property="og:description" content="背景翻到了一本小书，《Djinn Summoning》，感觉里面的内容很适合新手魔法师。所以也以此文档来作为Djinn召唤的教程了。本书极其适合新手阅读，仅在此进行翻译以及整理。 PS：本文章中的Djinn，可以完全理解为jinn。 关于Djinn在进行召唤仪式之前，我们首先要先理解Djinn是什么样子的，他们是如何存在的，他们与人类之间又是什么关系。 什么是DjinnDjinn（或Genies、">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://z3.ax1x.com/2021/08/08/flGtOI.png">
-<meta property="article:published_time" content="2022-05-19T15:07:23.466Z">
-<meta property="article:modified_time" content="2022-01-30T09:39:53.014Z">
+<meta property="article:published_time" content="2022-07-31T04:13:30.720Z">
+<meta property="article:modified_time" content="2022-07-31T12:36:30.782Z">
 <meta property="article:author" content="Heresy">
-<meta property="article:tag" content="密码学">
+<meta property="article:tag" content="神秘学">
+<meta property="article:tag" content="jinn">
+<meta property="article:tag" content="阿拉伯">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://z3.ax1x.com/2021/08/08/flGtOI.png">
 
-<link rel="canonical" href="http://lostkey.top/2022/05/19/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/">
+<link rel="canonical" href="http://lostkey.top/2022/07/31/1.Djinn%E5%8F%AC%E5%94%A4%EF%BC%88%E4%B8%80%EF%BC%89/">
 
 
 <script id="page-configurations">
@@ -70,7 +70,7 @@
   };
 </script>
 
-  <title>【古典密码】凯撒加密 | Lost Key</title>
+  <title>Djinn的召唤（1） | Lost Key</title>
   
 
 
@@ -254,7 +254,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://lostkey.top/2022/05/19/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/">
+    <link itemprop="mainEntityOfPage" href="http://lostkey.top/2022/07/31/1.Djinn%E5%8F%AC%E5%94%A4%EF%BC%88%E4%B8%80%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/header.jpg">
@@ -267,7 +267,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          【古典密码】凯撒加密
+          Djinn的召唤（1）
         </h1>
 
         <div class="post-meta">
@@ -276,27 +276,21 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-05-19 23:07:23" itemprop="dateCreated datePublished" datetime="2022-05-19T23:07:23+08:00">2022-05-19</time>
+              <time title="创建时间：2022-07-31 12:13:30 / 修改时间：20:36:30" itemprop="dateCreated datePublished" datetime="2022-07-31T12:13:30+08:00">2022-07-31</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-01-30 17:39:53" itemprop="dateModified" datetime="2022-01-30T17:39:53+08:00">2022-01-30</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">密码学</span></a>
+                  <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">神秘学</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81/" itemprop="url" rel="index"><span itemprop="name">古典密码</span></a>
+                  <a href="/categories/%E7%A5%9E%E7%A7%98%E5%AD%A6/%E4%BB%AA%E5%BC%8F/" itemprop="url" rel="index"><span itemprop="name">仪式</span></a>
                 </span>
             </span>
 
@@ -313,14 +307,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.6k</span>
+              <span>4.9k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -332,83 +326,106 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-<h1 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h1><blockquote>
-<p>如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——苏维托尼乌斯，罗马十二帝王传</p>
-</blockquote>
-<p><strong>凯撒密码</strong>最早由古罗马军事统帅盖乌斯·尤利乌斯·凯撒在军队中用来传递加密信息，故称凯撒密码。此为一种位移加密手段，只对26个（大小写）字母进行位移加密，规则相当简单，容易被破解。</p>
-<p>凯撒密码属于替代加密，即用另一个字符来替换明文中的原字符，其中的对应关系只有加密者所知。而凯撒密码就是最简单的一种替代加密手段。</p>
-<p>到了现代，凯撒密码虽然早已经无法保证人们的信息安全，但还是会包含于一些复杂的加密方法中，通常被作为其他更复杂的加密方法中的一个步骤，例如维吉尼亚密码。</p>
+        <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>翻到了一本小书，《Djinn Summoning》，感觉里面的内容很适合新手魔法师。所以也以此文档来作为Djinn召唤的教程了。本书极其适合新手阅读，仅在此进行翻译以及整理。</p>
+<p><strong>PS：本文章中的Djinn，可以完全理解为jinn。</strong></p>
+<h1 id="关于Djinn"><a href="#关于Djinn" class="headerlink" title="关于Djinn"></a>关于Djinn</h1><p>在进行召唤仪式之前，我们首先要先理解Djinn是什么样子的，他们是如何存在的，他们与人类之间又是什么关系。</p>
+<h3 id="什么是Djinn"><a href="#什么是Djinn" class="headerlink" title="什么是Djinn"></a>什么是Djinn</h3><p>Djinn（或Genies、Jinn、Jinni、D-jinn，以及许多其他叫法）被认为是神在人类之前创造的精神生物种族。他们是地球的第一批主人——人类是第二批。</p>
 <span id="more"></span>
 
-<h1 id="加密原理"><a href="#加密原理" class="headerlink" title="加密原理"></a>加密原理</h1><p><strong>凯撒密码的替换方法是通过排列明文和密文字母表，密文字母表示通过将明文字母表向左或向右移动一个固定数目的位置。</strong>例如，当偏移量是左移3的时候（解密时的密钥就是3）：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文字母表：ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><br><span class="line">密文字母表：DEFGHIJKLMNOPQRSTUVWXYZABC</span><br></pre></td></tr></table></figure>
-
-<p>举个例子当偏移量为左移3时，D本来是第4个字母，在字母表中向左移3位，即从第4位变成第1位。也就是在密文字母表中排名第一位。</p>
-<p><img src="https://z3.ax1x.com/2021/08/08/flGtOI.png"></p>
-<p>而加密者使用时，加密者查找明文字母表中需要加密的消息中的每一个字母所在位置，并且写下密文字母表中对应的字母。需要解密的人则根据事先已知的密钥反过来操作，得到原来的明文。例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span><br><span class="line">密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ</span><br></pre></td></tr></table></figure>
-
-<p>凯撒密码的加密、解密方法还能够通过同余的数学方法进行计算。首先将字母用数字代替，A=0，B=1，…，Z=25。此时偏移量为n的加密方法即为:<br>$$<br>En(x)=(x+n)\ mod\ 26<br>$$</p>
-<p>解密就是：<br>$$<br>Dn(x)=(x-n)\ mod\ 26<br>$$</p>
-<p>特定凯撒密码名称</p>
-<p>根据偏移量的不同，还存在若干特定的凯撒密码名称：</p>
-<ul>
-<li>偏移量为10：Avocat(A→K)</li>
-<li>偏移量为13：ROT13</li>
-<li>偏移量为-5：Cassis (K 6)</li>
-<li>偏移量为-6：Cassette (K 7)</li>
-</ul>
-<h1 id="破解方式"><a href="#破解方式" class="headerlink" title="破解方式"></a>破解方式</h1><h3 id="暴力破解"><a href="#暴力破解" class="headerlink" title="暴力破解"></a>暴力破解</h3><p>凯撒密码的原理导致，总共也就只有26种可能，在这种情况下，我们完全可以把偏移量全部试一遍。事实上现在网络上的解法都是如此。</p>
-<p>举个例子：</p>
-<p>密文: N FR MJWJXD</p>
-<table style="margin-left: auto; margin-right: auto;">
-     <tr>
-         <td>
-             <p>Key #1: M EQ LIVIWC</p>
-             <p>Key #2: L DP KHUHVB</p>
-             <p>Key #3: K CO JGTGUA</p>
-             <p>Key #4: J BN IFSFTZ</p>
-             <p>Key #5: I AM HERESY</p>
-             <p>Key #6: H ZL GDQDRX</p>
-             <p>Key #7: G YK FCPCQW</p>
-             <p>Key #8: F XJ EBOBPV</p>
-             <p>Key #9: E WI DANAOU</p>
-             <p>Key #10: D VH CZMZNT</p>
-             <p>Key #11: C UG BYLYMS</p>
-             <p>Key #12: B TF AXKXLR</p>
-             <p>Key #13: A SE ZWJWKQ</p>
-         </td>
-         <td>
-             <p>Key #14: Z RD YVIVJP</p>
-             <p>Key #15: Y QC XUHUIO</p>
-             <p>Key #16: X PB WTGTHN</p>
-             <p>Key #17: W OA VSFSGM</p>
-             <p>Key #18: V NZ URERFL</p>
-             <p>Key #19: U MY TQDQEK</p>
-             <p>Key #20: T LX SPCPDJ</p>
-             <p>Key #21: S KW ROBOCI</p>
-             <p>Key #22: R JV QNANBH</p>
-             <p>Key #23: Q IU PMZMAG</p>
-             <p>Key #24: P HT OLYLZF</p>
-             <p>Key #25: O GS NKXKYE</p>
-             <p>Key #26: N FR MJWJXD</p>
-         </td>
-        </tr>
-</table>
-显然，可以看出第四个即为明文。
-
-
-
-<h3 id="频率分析"><a href="#频率分析" class="headerlink" title="频率分析"></a>频率分析</h3><p>单纯的凯撒加密作为一种替代加密方式，并且，在这个加密过程中<strong>他原本的明文所代表的含义是没变的</strong>。</p>
-<p>当密文长度足够大的情况下，可以先分析密文中每个字母出现的频率，然后将这一频率与正常情况下的该语言字母表中所有字母的出现频率做比较。例如在英语中，正常明文中字母E和T出现的频率特别高，而字母Q和Z出现的频率特别低，而在法语中出现频率最高的字母是E，最低的是K和W。可以通过这一特点，分析密文字母出现的频率，可以估计出正确的偏移量。此外，有时还可以将频率分析从字母推广到单词，例如英语中，出现频率最高的单词是：the, of, and, a, to, in…。我们可以通过将最常见的单词的所有可能的25组密文，编组成字典，进行分析。比如QEB可能是the，MPQY可能是单词know（当然也可能是aden）。<strong>但是频率分析也有其局限性，它对于较短或故意省略元音字母或者其他缩写方式写成的明文加密出来的密文进行解密并不适用。</strong></p>
-<p>举个例子：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG</span><br><span class="line">密文：WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ</span><br></pre></td></tr></table></figure>
-
-<p>这段密文中，频率出现最高的是字母R和字母H。我们推断这两个应该是元音字母。并且我们可以注意到，WKH出现过两次，很有可能代表的是单词the。而且字母H也是高频率字母，所以我们可以猜测字母H代表的是字母E。</p>
-<p>E是第5个字母，而H是第8个字母，所以显然，偏移量为3，这样便可以轻松解出明文了。</p>
+<p>正如人是由泥土制成的一样，Djinn是由火制成的。即使在今天，他们经常以火的形式出现。</p>
+<p>Djinn是有自由意志的生物，既能做善事，也能做恶事。虽然人类看不见，但精灵能够看到人类，而且如果他们愿意，可以出现在人类面前。</p>
+<p>Djinn没有质量，能够融入他们想要的任何大小的空间，这也是他们能够被束缚在灯具、戒指、吊坠、娃娃等物品上的原因。</p>
+<p>Djinn有和人类一样的社区：他们吃饭、结婚、死亡等等。他们和人类一样信奉同样的宗教，在军队中也有和人类一样的军衔，尽管Djinn的寿命比人类长得多。</p>
+<p>因为他们是由微妙的火组成的，所以Djinn可以表现为人类、动物（通常喜欢蛇）、火或任何其他事物。精灵是非常强大的生物，能够实现人类的任何愿望。</p>
+<h3 id="Djinn的阶级划分"><a href="#Djinn的阶级划分" class="headerlink" title="Djinn的阶级划分"></a>Djinn的阶级划分</h3><p>等级最低的是jann，力量最弱。</p>
+<p>第二级被称为jinn。</p>
+<p>第三级是shaitans.。</p>
+<p>第四级被称为ifrits。</p>
+<p>第五级也是最强大的级别是Marids。</p>
+<p>这里我们要注意，Djinn中分为两种，一种是Believer Djinn，另一种就是简单明了的not Believer Djinn。</p>
+<p>Believer Djinn已经是神的信仰者。他们不会去伤害人类。他们会去向不信神的jinn宣布神的话语。</p>
+<p>而not Believer Djinn确会有这种可能。</p>
+<p>所以建议魔法师们与Believer Marid Djinn合作。</p>
+<h3 id="关于Djinn的记载"><a href="#关于Djinn的记载" class="headerlink" title="关于Djinn的记载"></a>关于Djinn的记载</h3><p>Djinn是由Allah所创造的，是一种与人类和天使都不同的存在，但那是与人类共享某些品质，如：智慧、辨别力、自由和选择好与坏、真与假、对与错的能力。</p>
+<blockquote>
+<p>“ I have only created Jinns and men, that they may serve Me. ” (Quran 51: V 56)</p>
+<p>“And He created Jinns from fire free of smoke: ”(Quran 55: V 15)</p>
+<p>“We created man from sounding clay, from mud moulded into shape; ”(Quran 15: V 26)</p>
+</blockquote>
+<p>这几句话都出自于古兰经。我们可以看到，神创造了Jinn和人类。他用火创造了Jinn，用土创造了人。这也是Jinn和人类本质上不一样的地方。</p>
+<p>我们之前谈论过，Believer Djinn和not Believer Djinn的区别。其实古兰经中也有提到。</p>
+<blockquote>
+<p>”It has been revealed to me that a company of Jinns listened (to the Quran). They said, ‘We have really heard a wonderful Recital!“</p>
+<p>“If the whole of mankind and Jinns were to gather together to produce the like of this Quran, they could not produce the like thereof, even if they backed up each other with help and support. ”</p>
+</blockquote>
+<p>这两句也是很典型的。这是Believer Djinn对于神的崇拜。我们一般认为，Believer Djinn已经完全被神所“驯服”，所以他们都不会伤害人。</p>
+<p>而同样的，not Believer Djinn也有其描述，其中最有名的大概就是Iblis拒绝向Adam俯首的事情了。</p>
+<blockquote>
+<p>“Behold! We said to the angels, “Bow down to Adam”: They bowed down except Iblis(Satan). He was one of the Jinns, and he broke the Command of his Lord. Will ye then take him and his progeny as protectors rather than Me? And they are enemies to you! Evil would be the exchange for the wrong-doers! ”(Quran 18: V 50)</p>
+</blockquote>
+<p>也是因此，Iblis被驱逐到了地狱。</p>
+<p>关于信者与不信者的论述，在此引用一段话</p>
+<blockquote>
+<p><em>Believing Jinn would be just as good as angels or as good as human believers. The unbelieving Jinn, however, are the ones that we usually refer to as Satan and also a term that appears in the Quran about the first of those unbelieving Jinn,</em> <em>Iblis</em> <em>. When we use Satan or Iblis we are talking particularly about the first Satan, the one who tempted Adam and Eve in Paradise. Now, the league of Satan, his descendants, and helpers until today are called Satans or devils.</em></p>
+<p>信仰神的jinn会和天使一样好，或者和人类信徒一样好。然而，不信教的jinn就是我们通常所说的Satan。也指《古兰经》中出现的关于第一个不信教的jinn，Iblis。当我们使用Satan或Iblis这两个词的时候，我们特别是在谈论第一个不信教的jinn，就是那个在天堂诱惑亚当和夏娃的人。 撒旦以及他的后裔，以及直到今天的帮助者都被称为撒旦或魔鬼。</p>
+</blockquote>
+<p>从这段论述中，我们也可以清晰地了解到穆斯林对于两种jinn的看法。</p>
+<p>而更值得一提的是，古兰经中表明，所罗门王也拥有着Jinn来帮助他。</p>
+<blockquote>
+<p>“And to Solomon (We made) the Wind (obedient): Its early morning (stride) was a month’s (journey), and its evening (stride) was a month’s (journey); and We made a Font of molten brass to flow for him; and there were Jinns that worked in front of him, by the leave of his Lord, and if any of them turned aside from our command, We made him taste of the Penalty of the Blazing Fire.”(Quran 34: V 12)</p>
+</blockquote>
+<h1 id="召唤仪式"><a href="#召唤仪式" class="headerlink" title="召唤仪式"></a>召唤仪式</h1><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ol>
+<li><p>拿3支无香味的蜡烛（有些气味会排斥Jinn），大小不限……一支是白色的，一支是黑色的，象征着jinn的自由意志，以及它成为善人或恶人的能力。这也象征着人的世界和jinn的世界之间的通道。第三根蜡烛必须是血红色的，象征着jinn本身，以及催生它的无烟之火。</p>
+</li>
+<li><p>接下来，放置一个普通的白色碗，大小不限，以便放置你的祭品。你唯一需要的额外物品是一盒火柴，和一面干净的大镜子，以反映jinn和人类的双重现实世界。</p>
+</li>
+<li><p>在你开始召唤仪式之前，你必须在红蜡烛的侧面刻上以下字母（不要在其他两根蜡烛上刻这个信息……只有红蜡烛）。</p>
+<p><strong>”A’oo Thu Billahi min Ash Shaitan Arrajim“</strong></p>
+<p>这是一个阿拉伯短语，通常用来保护自己免受邪灵（撒旦）的侵害，并召唤善良的信教jinn。</p>
+</li>
+<li><p>洗个澡，注意不能用肥皂或者洗发水一类的。这是为了防止自己身上有气味会冒犯到jinn。最好的情况就是，在清澈的小溪或者湖泊中进行沐浴。</p>
+</li>
+<li><p>穿上让你感觉到舒适的衣服，保持周围环境的安静。也不要开灯，最好就是用太阳光。</p>
+</li>
+<li><p>准备好为捕获jinn准备的物件，最好是对于自己有着特殊意义的。</p>
+</li>
+</ol>
+<h3 id="仪式操作"><a href="#仪式操作" class="headerlink" title="仪式操作"></a>仪式操作</h3><ol>
+<li><p>布置好你的祭坛。必须盘腿坐在地上，把镜子放在正前方。让镜子可以反射到三根蜡烛。把空碗放在红蜡烛的正前方，在蜡烛和镜子之间。</p>
+</li>
+<li><p>首先，你必须使自己进入一个非常放松和开放的状态。要做到这一点，你必须注视着镜子，盯着自己的眼睛。当你凝视时，深吸一口气，一直吸气，保持一秒钟，然后慢慢释放。重复进行，直到你已经做了20次深呼吸。</p>
+</li>
+<li><p>点燃蜡烛。划一根火柴，用它先点燃白蜡烛，然后点燃黑蜡烛，然后轻轻地吹灭火柴，把它放在一边。</p>
+</li>
+<li><p>现在，作为善与恶结合形成自由意志基础的精神象征，你将用左手拿起白蜡烛，用右手拿起黑蜡烛。利用两根蜡烛的火焰，点燃红色的蜡烛。红蜡烛点燃后，再把白蜡烛和黑蜡烛放回原处。</p>
+</li>
+<li><p>念诵<strong>”A’oo Thu Billahi min Ash Shaitan Arrajim“</strong>九遍。</p>
+<p><strong>一旦你完成了背诵，精灵就会意识到你在试图联系它们，并会非常乐意接受你。你可能开始感到身体有奇怪的感觉，或者感觉到有东西在房间里和你在一起……不要害怕。这是正常的，因为这是Djinn在向你表明他们的存在。</strong></p>
+<p>人的体内有着jinn所喜欢的能量。人的头发带有大量的这种能量，是jinn喜欢的食物。你自己的一缕头发将是你对jinn的献礼。</p>
+</li>
+<li><p>接下来，你需要极其准确不能失误地读下面的话：<strong>“I wish to speak to you in the kings English now. I offer you my own energy to do with as you wish in exchange for your guidance.”</strong></p>
+<p>（当你说这句话时，立即伸手，从你的头上拔下一根头发，并把它放到碗里。）</p>
+</li>
+<li><p>停顿片刻。现在，把你希望精灵进入的物品，也放进碗里。</p>
+<p>然后重复念祷词：</p>
+<p><strong>I command you to enter into the (你准备的物品的名) lain here.</strong></p>
+<p><strong>I command you to enter into the （）lain here.</strong> </p>
+<p><strong>I command you to enter into the （）lain here.</strong></p>
+</li>
+<li><p>现在，停顿片刻，然后拿起白蜡烛，吹灭它。然后，拿起黑蜡烛，吹灭它，象征着自由意志的消除（从而使你成为精灵的主人）。让红蜡烛继续燃烧。</p>
+</li>
+<li><p>现在，从碗内取出物品，并将其放在一边。将手伸进碗里，取出你的一缕头发，并小心地把它丢进红蜡烛的火焰中。</p>
+</li>
+<li><p>让头发完全燃烧。一旦头发被烧毁，祭品将被认为已经被jinn所享用完的，它将住在你命令它的存在的物品之中。</p>
+</li>
+<li><p>一旦头发被完全烧毁，就吹灭红蜡烛，从而结束这个仪式。</p>
+</li>
+</ol>
+<h3 id="仪式结束"><a href="#仪式结束" class="headerlink" title="仪式结束"></a>仪式结束</h3><p>仪式已经完成，如果你完美地遵循了一切规定，你的精灵现在将被捕获在你命令它进入的物品中。有些人能够立即感觉到精灵的存在。对其他人来说，几天甚至几周内都不会有任何感觉。由于你的精灵对你来说是新的，所以在它获得你的信任之前，它很少有机会以身体的形式出现。</p>
+<p>然而，如果你在此时想问它一个问题，有一些方法是大多数精灵喜欢回答你的。用你最弱的手拿一支铅笔，把它放在一张空纸的第一行。在精灵面前大声提问，并命令精灵引导你的手，带领你找到答案。</p>
+<p>然后，闭上眼睛，开始以随机的模式慢慢移动铅笔，只要做任何感觉正确的事情，不要想你在写什么，直到纸被覆盖。然后，睁开你的眼睛，检查这张纸。很多时候，你会发现（如果你的精灵不是太顽固的话），它将引导你的手在纸上写出你问题的答案。只需寻找散落在随机标记中的单词。</p>
+<p>另一种方式，也是Djinn喜欢与他们的主人沟通的方式，是通过梦境。要用这种方式交流，只需让精灵靠近你，在你睡觉前，对你希望精灵回答的问题做10或15分钟的冥想。然后，紧接着睡觉。你会发现，Djinn会以这样或那样的形式出现在你的梦中，并会帮助你提供建议和指导。</p>
+<p>当然，当你的精灵习惯于你，并接受你为它的主人后，它可能会以这样或那样的形式出现在你面前，你可以要求它实现你的愿望。</p>
 
     </div>
 
@@ -444,14 +461,14 @@
   </li>
   <li class="post-copyright-link">
       	    <strong>本文标题：</strong>
-      	    <a href="http://lostkey.top/2022/05/19/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/" title="【古典密码】凯撒加密">【古典密码】凯撒加密</a>
+      	    <a href="http://lostkey.top/2022/07/31/1.Djinn%E5%8F%AC%E5%94%A4%EF%BC%88%E4%B8%80%EF%BC%89/" title="Djinn的召唤（1）">Djinn的召唤（1）</a>
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://lostkey.top/2022/05/19/%E3%80%90%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E3%80%91%E5%87%AF%E6%92%92%E5%8A%A0%E5%AF%86/" title="【古典密码】凯撒加密">http://lostkey.top/2022/05/19/【古典密码】凯撒加密/</a>
+    <a href="http://lostkey.top/2022/07/31/1.Djinn%E5%8F%AC%E5%94%A4%EF%BC%88%E4%B8%80%EF%BC%89/" title="Djinn的召唤（1）">http://lostkey.top/2022/07/31/1.Djinn召唤（一）/</a>
   </li>
   <li class="post-copyright-date">
-    <strong>发布时间：</strong>2022年5月19日 - 23时05分
+    <strong>发布时间：</strong>2022年7月31日 - 12时07分
   </li>  
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -492,7 +509,9 @@
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" rel="tag"><i class="fa fa-tag"></i> 密码学</a>
+              <a href="/tags/%E7%A5%9E%E7%A7%98%E5%AD%A6/" rel="tag"><i class="fa fa-tag"></i> 神秘学</a>
+              <a href="/tags/jinn/" rel="tag"><i class="fa fa-tag"></i> jinn</a>
+              <a href="/tags/%E9%98%BF%E6%8B%89%E4%BC%AF/" rel="tag"><i class="fa fa-tag"></i> 阿拉伯</a>
           </div>
 
         
@@ -501,13 +520,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/05/19/Record%203/" rel="prev" title="Record 3">
-      <i class="fa fa-chevron-left"></i> Record 3
+    <a href="/2022/07/28/%E3%80%8A%E6%96%87%E5%9F%8E%E3%80%8B/" rel="prev" title="总会有一个地方叫文城">
+      <i class="fa fa-chevron-left"></i> 总会有一个地方叫文城
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/05/19/%E6%96%B0%E6%9C%88%E4%BB%AA%E5%BC%8F/" rel="next" title="新月仪式">
-      新月仪式 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -571,7 +587,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A6%82%E5%86%B5"><span class="nav-number">1.</span> <span class="nav-text">概况</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8A%A0%E5%AF%86%E5%8E%9F%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">加密原理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A0%B4%E8%A7%A3%E6%96%B9%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">破解方式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3"><span class="nav-number">3.0.1.</span> <span class="nav-text">暴力破解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%91%E7%8E%87%E5%88%86%E6%9E%90"><span class="nav-number">3.0.2.</span> <span class="nav-text">频率分析</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-number">1.</span> <span class="nav-text">背景</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EDjinn"><span class="nav-number">2.</span> <span class="nav-text">关于Djinn</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFDjinn"><span class="nav-number">2.0.1.</span> <span class="nav-text">什么是Djinn</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Djinn%E7%9A%84%E9%98%B6%E7%BA%A7%E5%88%92%E5%88%86"><span class="nav-number">2.0.2.</span> <span class="nav-text">Djinn的阶级划分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EDjinn%E7%9A%84%E8%AE%B0%E8%BD%BD"><span class="nav-number">2.0.3.</span> <span class="nav-text">关于Djinn的记载</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%AC%E5%94%A4%E4%BB%AA%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">召唤仪式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">3.0.1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%AA%E5%BC%8F%E6%93%8D%E4%BD%9C"><span class="nav-number">3.0.2.</span> <span class="nav-text">仪式操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%AA%E5%BC%8F%E7%BB%93%E6%9D%9F"><span class="nav-number">3.0.3.</span> <span class="nav-text">仪式结束</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
